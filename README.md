@@ -7,6 +7,8 @@ And, you should update bash to over v4.
 2. bash init.sh
 3. docker-compose up
 
+**You can't use `-` for project name. Instead use `_`.**
+
 When you enter project name as `foo`, `YOUR_CONTAINER_NAME` is `foo_container`.
 Similarly `YOUR_DB_NAME` is `foo_db`.
 
